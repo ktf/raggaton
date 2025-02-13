@@ -1,0 +1,4 @@
+flake.lock
+poetry.lock
+temp.pdf
+*/__pycache__

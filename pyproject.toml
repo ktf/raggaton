@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "raggaton"
+version = "0.1.0"
+description = ""
+authors = ["Author Name <giulio.eulisse@cern.ch>"]
+# readme = "README.md"
+# license = "BSD"
+packages = [
+  { include = "raggaton" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core", "LangChain", "StreamLit"]
+build-backend = "poetry.core.masonry.api"
